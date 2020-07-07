@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            box-sizing: border-box;
+        }
+        main {
+            margin-left: 270px;
+        }
+        main .images{
+            line-height: 0;
+        }
+        main img{
+            width: 100%;
+        }
+
+        .side-nav {
+            background-color: #3c5168;
+            width: 270px;
+            height: 100%;
+            position: fixed;
+            z-index: 3000;
+            box-sizing: border-box;
+            background-image: url(images/background-2.gif);
+            background-size: cover;
+            background-position: center bottom;
+            overflow: auto;
+        }
+        .side-nav .logo{
+            padding: 40px;
+            display: block;
+        }
+        .side-nav .logo img{
+            width: 100%;
+            height: auto;
+        }
+        .side-nav .menu-area .main-menu li a{
+            color: #6d93bf;
+            font-family: sans-serif;
+            text-decoration: none;
+            padding: 10px 40px;
+            display: block;
+            font-weight: 600;
+            font-size: 14px;
+            transition: .5s ease;
+            font-family: 'Raleway', sans-serif;
+        }
+        .side-nav .menu-area .main-menu li a:hover,
+        .side-nav .menu-area .main-menu li.active a{
+            color: #fff;
+        }
+        .side-nav .social{
+            padding: 40px;
+        }
+        .side-nav .social a{
+            display: inline-block;
+            margin-right: 10px;
+            width: 40px;
+            height: 40px;
+            background-color: darkred;
+            border-radius: 50%;
+        }
+        .side-nav .social a img{
+            max-width: 20px;
+            max-height: 20px;
+            position: relative;
+            left: 10px;
+            top: 10px;
+        }
+        .side-nav .address{
+            padding: 20px 40px;
+        }
+        .side-nav .address h5{
+            color: #fff;
+            font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+            line-height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <div class="side-nav">
+            <a href="" class="logo">
+                <img src="images/integrity-chiropractic.png" alt="">
+            </a>
+            <nan class="menu-area">
+                <ul class="main-menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Chiropractic BioPhysics</a></li>
+                    <li><a href="index.html">What to Expect</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Articles</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                    <li><a href="index.html">facebooktwitter</a></li>
+                </ul>
+            </nan>
+            <div class="social">
+                <a href="" class="facebook"><img src="images/facebook-f-brands.svg" alt=""></a>
+                <a href="" class="twitter"><img src="images/twitter-brands.svg" alt=""></a>
+                <a href="" class="instagram"><img src="images/instagram-brands.svg" alt=""></a>
+            </div>
+            <div class="address">
+                <h5>431 Hollywood Blvd E
+                    Mary Esther, FL 32569
+                    Call: 850-864-5300</h5>
+            </div>
+        </div>
+        <main>
+           <div class="images">
+            <img src="images/back-pain-in-fort-walton-beach.jpg" alt="">
+            <img src="images/best-chiropractor-in-fort-walton-beach.jpg" alt="">
+            <img src="images/integrity-chiropractic-fort-walton-beach.jpg" alt="">
+           </div>
+        </main>
+    </div>
+</body></html>
